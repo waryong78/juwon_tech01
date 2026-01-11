@@ -46,6 +46,15 @@ Key sections included:
     - The image source is `./Solar_Street_Light.jpeg` with appropriate `alt` text and styling (`max-h-full max-w-full object-cover`).
     - Increased the height of the image container `div` from `h-80` to `h-96` to provide more space for the image.
 
+#### View Detailed Specifications Modal
+- **`index.html`:**
+    - Added a hidden modal structure (`#spec-modal`) to the end of the `body` tag, styled with Tailwind CSS.
+    - Modified all "상세 규격서 보기" buttons to include `data-product` attributes (e.g., `data-product="standard"`), linking them to specific product types.
+    - Included a `<script>` block at the end of the `body` to manage modal functionality:
+        - Stores detailed specification content for "standard", "double-arm", and "solar-smart" product types.
+        - Displays the modal, populates it with relevant content and title based on the clicked button's `data-product` attribute.
+        - Hides the modal when the close button or the overlay is clicked.
+
 ## Plan for Current Request: Add "회사소개" (About Us) Section
 
 ### Objective
