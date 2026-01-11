@@ -40,6 +40,11 @@ Key sections included:
         - Two paragraphs introducing "주원테크", its history, commitment to quality, and customized solutions.
         - Two feature highlights: "품질 최우선" (Quality First) and "기술 혁신" (Technological Innovation) with corresponding icons and descriptions.
 
+#### Product Image Insertion
+- **`index.html`:**
+    - Replaced the Font Awesome icon (`<i class="fas fa-sun">`) for "스마트 태양광 LED 가로등" (Solar Smart Type) product with an `<img>` tag.
+    - The image source is `./Solar_Street_Light.jpeg` with appropriate `alt` text and styling (`max-h-full max-w-full object-contain`).
+
 ## Plan for Current Request: Add "회사소개" (About Us) Section
 
 ### Objective
