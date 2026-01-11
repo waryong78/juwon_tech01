@@ -55,6 +55,13 @@ Key sections included:
         - Displays the modal, populates it with relevant content and title based on the clicked button's `data-product` attribute.
         - Hides the modal when the close button or the overlay is clicked.
 
+#### Placeholder DWG/PDF for Drawings
+- **Created Files:**
+    - `콘크리트_기초_및_앵커볼트_상세_구조도.dwg` (placeholder DWG file)
+    - `콘크리트_기초_및_앵커볼트_상세_구조도.pdf` (placeholder PDF file)
+- **`index.html`:**
+    - Updated the `<a>` tags in the "도면 및 설계 자료실" table for the "기초 및 앵커" row to link to the new `.dwg` and `.pdf` files. Added `download` attribute to enable direct download.
+
 ## Plan for Current Request: Add "회사소개" (About Us) Section
 
 ### Objective
